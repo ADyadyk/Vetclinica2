@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vetclinica2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Elephant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Swimable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/ToGoable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/FoundSwimable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Doctors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/EyeCheckable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/HeadNurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Operateable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Ophthalmologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Surgeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/TakeBloodable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/VeterinaryClinic.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2ZoirZhCULvRiu2c6bYV8k3ksNb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson02.Main" />
+      <module name="Vetclinica2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="" />
+      <created>1703095035682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703095035682</updated>
+    </task>
+    <servers />
+  </component>
+</project>
