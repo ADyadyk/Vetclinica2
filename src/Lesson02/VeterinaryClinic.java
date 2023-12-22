@@ -30,7 +30,6 @@ public class VeterinaryClinic{
     public void setDocs(ArrayList<Doctors> docs) {
         this.docs = docs;
     }
-
     public void setNurses(ArrayList<Nurse> nurses) {
         this.nurses = nurses;
     }
@@ -71,6 +70,9 @@ public class VeterinaryClinic{
         }
     }
 
+    /**
+     Метод, отображающий информацию о выплате заработной платы:
+     */
     public void salaryPayment(){
         for (Doctors doc : docs) {
             System.out.println(doc.getName() + " - получил зарплату.");
