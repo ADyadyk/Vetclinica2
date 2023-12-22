@@ -1,6 +1,6 @@
-package Lesson02.Staff;
+package Lesson.Staff;
 
-import Lesson02.Animals.Animal;
+import Lesson.Animals.Animal;
 
 public class Ophthalmologist extends Doctors implements EyeCheckable{
     public Ophthalmologist(String name, int experiense) {

@@ -1,4 +1,4 @@
-package Lesson02.Animals;
+package Lesson.Animals;
 
 public interface Swimable {
     default public void swim(){

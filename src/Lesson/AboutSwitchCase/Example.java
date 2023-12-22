@@ -1,4 +1,4 @@
-package Lesson02.AboutSwitchCase;
+package Lesson.AboutSwitchCase;
 
 import java.util.HashMap;
 import java.util.Map;

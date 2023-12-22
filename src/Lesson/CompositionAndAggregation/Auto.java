@@ -1,4 +1,4 @@
-package Lesson02.CompositionAndAggregation;
+package Lesson.CompositionAndAggregation;
 
 public class Auto {
     private Engine engine; // Композиция - жёсткая связь

@@ -1,4 +1,4 @@
-package Lesson02.Animals;
+package Lesson.Animals;
 
 import java.time.LocalDate;
 import java.util.List;

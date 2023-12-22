@@ -1,11 +1,11 @@
-package Lesson02;
+package Lesson;
 
-import Lesson02.Animals.Animal;
-import Lesson02.Animals.Flyable;
-import Lesson02.Animals.Swimable;
-import Lesson02.Animals.ToGoable;
-import Lesson02.Staff.Doctors;
-import Lesson02.Staff.Nurse;
+import Lesson.Animals.Animal;
+import Lesson.Animals.Flyable;
+import Lesson.Animals.Swimable;
+import Lesson.Animals.ToGoable;
+import Lesson.Staff.Doctors;
+import Lesson.Staff.Nurse;
 
 import java.util.ArrayList;
 

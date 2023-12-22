@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="add AboutSwitchCase &amp; use Functional Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/CompositionAndAggregation/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/CompositionAndAggregation/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/CompositionAndAggregation/Engine.java" afterDir="false" />
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="add Composition and aggregation">
+      <change afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Pharmacy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/AboutSwitchCase/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/AboutSwitchCase/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/Elephant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/Goose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/Goose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/Swimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Animals/ToGoable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Animals/ToGoable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/CompositionAndAggregation/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/CompositionAndAggregation/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/CompositionAndAggregation/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/CompositionAndAggregation/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/CompositionAndAggregation/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/CompositionAndAggregation/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/FoundSwimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/FoundSwimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Staff/Doctors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Staff/Doctors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Staff/EyeCheckable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Staff/EyeCheckable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Staff/HeadNurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Staff/HeadNurse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Staff/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Staff/Nurse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Staff/Operateable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Staff/Operateable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Staff/Ophthalmologist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Staff/Ophthalmologist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Staff/Surgeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Staff/Surgeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Staff/TakeBloodable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Staff/TakeBloodable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/VeterinaryClinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/VeterinaryClinic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +71,11 @@
 }]]></component>
   <component name="RunManager" selected="Application.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson02.AboutSwitchCase.Example" />
+      <option name="MAIN_CLASS_NAME" value="Lesson.AboutSwitchCase.Example" />
       <module name="Vetclinica2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson02.AboutSwitchCase.*" />
+          <option name="PATTERN" value="Lesson.AboutSwitchCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson02.Main" />
+      <option name="MAIN_CLASS_NAME" value="Lesson.Main" />
       <module name="Vetclinica2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson02.*" />
+          <option name="PATTERN" value="Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703247005098</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Composition and aggregation">
+      <option name="closed" value="true" />
+      <created>1703251673908</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703251673908</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +169,7 @@
     <MESSAGE value="update main" />
     <MESSAGE value="add comments in VeterinaryClinic.java" />
     <MESSAGE value="add AboutSwitchCase &amp; use Functional Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="add AboutSwitchCase &amp; use Functional Interfaces" />
+    <MESSAGE value="add Composition and aggregation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Composition and aggregation" />
   </component>
 </project>

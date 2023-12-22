@@ -1,6 +1,4 @@
-package Lesson02.Staff;
-
-import Lesson02.Animals.Animal;
+package Lesson.Staff;
 
 public class Nurse {
     private String name;

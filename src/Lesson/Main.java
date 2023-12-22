@@ -1,7 +1,7 @@
-package Lesson02;
+package Lesson;
 
-import Lesson02.Animals.*;
-import Lesson02.Staff.*;
+import Lesson.Animals.*;
+import Lesson.Staff.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ public class Main {
                 LocalDate.of(1900,07,15),
                 new ArrayList<>(), "Depression", "Ivan");
         // Добавим животных в список больных животных:
-        ArrayList<Lesson02.Animals.Animal> animals = new ArrayList<>();
+        ArrayList<Lesson.Animals.Animal> animals = new ArrayList<>();
         animals.add(barsik);
         animals.add(kesha);
         animals.add(gaga);
@@ -94,7 +94,7 @@ public class Main {
          */
 
         // Создадим список медсестер и добавим их в ветеренарную клинику:
-        ArrayList<Lesson02.Staff.Nurse> nurses = new ArrayList<>();
+        ArrayList<Lesson.Staff.Nurse> nurses = new ArrayList<>();
         nurses.add(anna);
         nurses.add(galina);
         nurses.add(liza);
@@ -103,7 +103,7 @@ public class Main {
         goodDoctor.setNurses(nurses);
 
         // Создадим список докторов и добавим его в ветеренарную клинику:
-        ArrayList<Lesson02.Staff.Doctors> docs = new ArrayList<>();
+        ArrayList<Lesson.Staff.Doctors> docs = new ArrayList<>();
         docs.add(surgeon);
         docs.add(ophthalmologist);
 
