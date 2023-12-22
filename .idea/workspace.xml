@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vetclinica2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Elephant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Goose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/Swimable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Animals/ToGoable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/FoundSwimable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Doctors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/EyeCheckable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/HeadNurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Operateable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Ophthalmologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/Surgeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Staff/TakeBloodable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/VeterinaryClinic.java" afterDir="false" />
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="add VetClinica2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +72,19 @@
       <option name="presentableId" value="Default" />
       <updated>1703095035682</updated>
     </task>
+    <task id="LOCAL-00001" summary="add VetClinica2">
+      <option name="closed" value="true" />
+      <created>1703174364710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703174364710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add VetClinica2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add VetClinica2" />
   </component>
 </project>

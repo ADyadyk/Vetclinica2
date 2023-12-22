@@ -20,4 +20,12 @@ public class Surgeon extends Doctors implements Operateable{
                 " ухаживает за животным " + animal.getName() +
                 " после операции, которую провел доктор " + super.name + ".");
     }
+
+    @Override
+    public void operate(Animal animal) {
+        System.out.println("Медсестра " + nurse.getName() +
+                " ухаживает за животным " + animal.getName() +
+                " после операции, которую провел доктор " + super.name + ".");
+    }
+
 }

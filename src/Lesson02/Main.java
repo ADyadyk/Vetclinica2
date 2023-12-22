@@ -73,7 +73,8 @@ public class Main {
         Surgeon surgeon = new Surgeon("Хирург", 25, anna);
         Ophthalmologist ophthalmologist = new Ophthalmologist("Окулист", 10);
 
-        surgeon.operate(tuzik, anna);
+        surgeon.operate(tuzik, liza);
+        surgeon.operate(barsik);
         ophthalmologist.eyeCheck(kesha);
 
         // Создадим ветеринарную клинику:
