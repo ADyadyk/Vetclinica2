@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="update main" />
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="add comments in VeterinaryClinic.java">
+      <change afterPath="$PROJECT_DIR$/src/Lesson02/AboutSwitchCase/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,7 +44,20 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson02.AboutSwitchCase.Example" />
+      <module name="Vetclinica2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson02.AboutSwitchCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson02.Main" />
       <module name="Vetclinica2" />
@@ -57,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -94,13 +111,22 @@
       <option name="project" value="LOCAL" />
       <updated>1703234075307</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add comments in VeterinaryClinic.java">
+      <option name="closed" value="true" />
+      <created>1703236878139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703236878139</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add VetClinica2" />
     <MESSAGE value="update Operateable interface" />
     <MESSAGE value="update main" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main" />
+    <MESSAGE value="add comments in VeterinaryClinic.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments in VeterinaryClinic.java" />
   </component>
 </project>
