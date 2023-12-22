@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static <Animal> void main(String[] args) {
-
+        // Создадим животных:
         Cat barsik = new Cat("Barsik",
                 LocalDate.of(1990,01,03),
                 new ArrayList<>(), "Chumka", "Arkady");
@@ -33,6 +33,7 @@ public class Main {
         animals.add(shark);
 
         // Проверим, что умеют делать животные:
+        /*
         System.out.println("Что умеет делать " + barsik.getName() + "?");
         barsik.swim();
         barsik.toGo();
@@ -53,6 +54,7 @@ public class Main {
         System.out.println();
         System.out.println("Что умеет делать " + shark.getName() + "?");
         shark.swim();
+         */
 
         // Создадим медсестёр:
         Nurse anna = new Nurse("Anna", 10);
@@ -82,11 +84,14 @@ public class Main {
 
         // Добавим список животных в ветеренарную клинику:
         goodDoctor.setAnimals(animals);
+        // Найдём животных, умеющих ходить, плавать, летать:
+        /*
         goodDoctor.findFly();
         System.out.println();
         goodDoctor.findToGo();
         System.out.println();
         goodDoctor.findSwim();
+         */
 
         // Создадим список медсестер и добавим их в ветеренарную клинику:
         ArrayList<Lesson02.Staff.Nurse> nurses = new ArrayList<>();
