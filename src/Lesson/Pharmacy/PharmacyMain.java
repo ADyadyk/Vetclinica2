@@ -1,6 +1,9 @@
 package Lesson.Pharmacy;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 
 public class PharmacyMain {
     public static void main(String[] args) {
@@ -36,5 +39,14 @@ public class PharmacyMain {
         for(Component item : pharmacy3){
             System.out.println(item);
         }
+        System.out.println("-----------------------------------------------------------------------");
+        // Создадим список, в который сложим все компоненты:
+        List<Component> list = new ArrayList<>();
+        list.add(salt);
+        list.add(pineceline);
+        list.add(sugar);
+
+        Collections.sort(list);
+        System.out.println(list);
     }
 }

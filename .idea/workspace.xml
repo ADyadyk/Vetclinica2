@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="Implementation of the Iterator() method of the Iterable interface. Second way">
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="add foreach in PharmacyMain.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/PharmacyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/PharmacyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703348447265</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add foreach in PharmacyMain.java">
+      <option name="closed" value="true" />
+      <created>1703350648160</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703350648160</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +240,7 @@
     <MESSAGE value="Console output of all components" />
     <MESSAGE value="Implementation of the Iterator() method of the Iterable interface. First way" />
     <MESSAGE value="Implementation of the Iterator() method of the Iterable interface. Second way" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the Iterator() method of the Iterable interface. Second way" />
+    <MESSAGE value="add foreach in PharmacyMain.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add foreach in PharmacyMain.java" />
   </component>
 </project>

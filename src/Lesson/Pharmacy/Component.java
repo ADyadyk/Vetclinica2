@@ -1,6 +1,6 @@
 package Lesson.Pharmacy;
 
-public class Component {
+public class Component implements Comparable<Component>{
     private String name;
     private String weight;
     private int power;
@@ -21,5 +21,15 @@ public class Component {
                 ", weight='" + weight + '\'' +
                 ", power=" + power +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Component o) {
+//        return Integer.compare(o.power, this.power); // Сортировка по убыванию
+        return Integer.compare(this.power, o.power); // Сортировка по возрастанию
+//        // Сортировка по возрастанию
+//        if (this.power > o.power) return 1;
+//        if (this.power < o.power) return -1;
+//        else return 0;
     }
 }
