@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Pharmacy implements Iterator<Component> {
     private int index;
-    private List<Component> components;
+    private final List<Component> components;
 
     public Pharmacy() {
         this.index = 0;
@@ -18,7 +18,7 @@ public class Pharmacy implements Iterator<Component> {
      Метод, добавляющий список компонентов в лекарство
      */
     public void addComponents(Component ... components){
-        if(components == null) System.out.println("Вы ничего не добавили!");
+        if(components.length == 0) System.out.println("Вы ничего не добавили!");
         else Collections.addAll(this.components, components);
     }
 

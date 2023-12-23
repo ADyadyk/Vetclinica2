@@ -9,5 +9,6 @@ public class PharmacyMain {
 
         // Создадим лекарство:
         Pharmacy pharmacy1 = new Pharmacy();
+        pharmacy1.addComponents();
     }
 }

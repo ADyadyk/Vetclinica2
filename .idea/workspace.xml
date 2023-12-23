@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="Override next &amp; hasNext. Add PharmacyMain.java">
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="update method addComponents in Pharmacy.java">
       <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/Pharmacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Pharmacy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/PharmacyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/PharmacyMain.java" afterDir="false" />
     </list>
@@ -44,7 +44,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Example">
+  <component name="RunManager" selected="Application.PharmacyMain">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson.AboutSwitchCase.Example" />
       <module name="Vetclinica2" />
@@ -71,8 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PharmacyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson.Pharmacy.PharmacyMain" />
+      <module name="Vetclinica2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson.Pharmacy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PharmacyMain" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.Main" />
       </list>
@@ -151,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703324360801</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add method addComponents in Pharmacy.java">
+      <option name="closed" value="true" />
+      <created>1703325601780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703325601780</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update method addComponents in Pharmacy.java">
+      <option name="closed" value="true" />
+      <created>1703325688104</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703325688104</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +193,8 @@
     <MESSAGE value="add Composition and aggregation" />
     <MESSAGE value="update all &amp; add Pharmacy" />
     <MESSAGE value="Override next &amp; hasNext. Add PharmacyMain.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Override next &amp; hasNext. Add PharmacyMain.java" />
+    <MESSAGE value="add method addComponents in Pharmacy.java" />
+    <MESSAGE value="update method addComponents in Pharmacy.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update method addComponents in Pharmacy.java" />
   </component>
 </project>
