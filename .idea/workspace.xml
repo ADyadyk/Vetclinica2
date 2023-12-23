@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="Console output of all components">
-      <change afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/ComponentIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/IterablePharmacy.java" afterDir="false" />
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="Implementation of the Iterator() method of the Iterable interface. First way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/IterablePharmacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/IterablePharmacy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703332727320</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implementation of the Iterator() method of the Iterable interface. First way">
+      <option name="closed" value="true" />
+      <created>1703347200536</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703347200536</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,6 +221,7 @@
     <MESSAGE value="update method addComponents in Pharmacy.java" />
     <MESSAGE value="again update method addComponents in Pharmacy.java" />
     <MESSAGE value="Console output of all components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Console output of all components" />
+    <MESSAGE value="Implementation of the Iterator() method of the Iterable interface. First way" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the Iterator() method of the Iterable interface. First way" />
   </component>
 </project>

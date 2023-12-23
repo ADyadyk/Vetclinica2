@@ -25,10 +25,29 @@ public class IterablePharmacy implements Iterable<Component>{
         if(components.length == 0) System.out.println("Вы ничего не добавили!");
         else Collections.addAll(this.components, components);
     }
+
+    @Override
+    public Iterator<Component> iterator() {
+        return new Iterator<Component>() {
+            @Override
+            public boolean hasNext() {
+                return index < components.size();
+            }
+
+            @Override
+            public Component next() {
+                return components.get(index++);
+            }
+        };
+    }
     // Реализация метода Iterator интерфейса Iterable:
     // Для этого создадим дополнительный класс ComponentIterator
+    /*
+    // First way
     @Override
     public Iterator<Component> iterator() {
         return new ComponentIterator(this);
     }
+     */
+
 }
