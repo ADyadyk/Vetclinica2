@@ -1,6 +1,7 @@
 package Lesson.Pharmacy;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -11,6 +12,14 @@ public class Pharmacy implements Iterator<Component> {
     public Pharmacy() {
         this.index = 0;
         this.components = new ArrayList<>();
+    }
+
+    /**
+     Метод, добавляющий список компонентов в лекарство
+     */
+    public void addComponents(Component ... components){
+        if(components == null) System.out.println("Вы ничего не добавили!");
+        Collections.addAll(this.components, components);
     }
 
     @Override
