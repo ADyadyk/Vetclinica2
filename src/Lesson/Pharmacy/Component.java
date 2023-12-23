@@ -10,4 +10,16 @@ public class Component {
         this.weight = weight;
         this.power = power;
     }
+
+    /**
+     Переопределённый метод toString()
+     */
+    @Override
+    public String toString() {
+        return "Component{" +
+                "name='" + name + '\'' +
+                ", weight='" + weight + '\'' +
+                ", power=" + power +
+                '}';
+    }
 }

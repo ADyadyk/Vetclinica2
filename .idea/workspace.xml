@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="update method addComponents in Pharmacy.java">
-      <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/Pharmacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Pharmacy.java" afterDir="false" />
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="again update method addComponents in Pharmacy.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/PharmacyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/PharmacyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703325688104</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="again update method addComponents in Pharmacy.java">
+      <option name="closed" value="true" />
+      <created>1703325906643</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703325906643</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +204,7 @@
     <MESSAGE value="Override next &amp; hasNext. Add PharmacyMain.java" />
     <MESSAGE value="add method addComponents in Pharmacy.java" />
     <MESSAGE value="update method addComponents in Pharmacy.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="update method addComponents in Pharmacy.java" />
+    <MESSAGE value="again update method addComponents in Pharmacy.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="again update method addComponents in Pharmacy.java" />
   </component>
 </project>
