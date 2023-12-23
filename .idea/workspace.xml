@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="add foreach in PharmacyMain.java">
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Homework03Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/NewPharmacy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/PharmacyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/PharmacyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +45,26 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PharmacyMain">
+  <component name="RunManager" selected="Application.Homework03Main">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson.AboutSwitchCase.Example" />
       <module name="Vetclinica2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson.AboutSwitchCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework03Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson.Pharmacy.Homework03Main" />
+      <module name="Vetclinica2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson.Pharmacy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework03Main" />
         <item itemvalue="Application.PharmacyMain" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.Main" />
@@ -222,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703350648160</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add compereTo() in Component.java">
+      <option name="closed" value="true" />
+      <created>1703357812168</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703357812168</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,6 +263,7 @@
     <MESSAGE value="Implementation of the Iterator() method of the Iterable interface. First way" />
     <MESSAGE value="Implementation of the Iterator() method of the Iterable interface. Second way" />
     <MESSAGE value="add foreach in PharmacyMain.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add foreach in PharmacyMain.java" />
+    <MESSAGE value="add compereTo() in Component.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add compereTo() in Component.java" />
   </component>
 </project>
