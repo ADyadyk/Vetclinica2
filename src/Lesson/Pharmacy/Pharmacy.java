@@ -19,7 +19,7 @@ public class Pharmacy implements Iterator<Component> {
      */
     public void addComponents(Component ... components){
         if(components == null) System.out.println("Вы ничего не добавили!");
-        Collections.addAll(this.components, components);
+        else Collections.addAll(this.components, components);
     }
 
     @Override
