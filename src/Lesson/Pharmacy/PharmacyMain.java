@@ -28,6 +28,13 @@ public class PharmacyMain {
 //        while(pharmacy2.hasNext()){
 //            System.out.println(pharmacy2.next());
 //        }
+        System.out.println("---------------------------------------------");
+        // Создадим ещё одно лекарство, используя тип IterablePharmacy:
+        IterablePharmacy pharmacy3 = new IterablePharmacy();
+        pharmacy3.addComponents(salt, sugar, pineceline);
 
+        for(Component item : pharmacy3){
+            System.out.println(item);
+        }
     }
 }
