@@ -33,14 +33,23 @@ public class NewPharmacy /*implements Iterator<Component> */{
     // Переопределим методы equals() и hasCode() класса Object:
     @Override
     public boolean equals(Object o) {
+//        System.out.println("Equals is called: " + this + " - " + o); // Вывод в консоль того, что происходит в equals()
         if (this == o) return true; // Рефлексивность - любой объект должен быть equals() самому себе
         if (o == null || getClass() != o.getClass()) return false; // Проверка на равенство null и равенство классов
         NewPharmacy that = (NewPharmacy) o;
-        return index == that.index && Objects.equals(components, that.components); // Проверка на равенство значений полей
+        return index == that.index && components.equals(that.components); // Проверка на равенство значений полей
+
     }
 
+    // Самостоятельное переопределение hashCode() для NewPharmacy:
     @Override
     public int hashCode() {
-        return Objects.hash(index, components);
+        return components.hashCode();
     }
+
+    // Автоматическое переопределение с помощью generate vai wizard
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(index, components);
+//    }
 }

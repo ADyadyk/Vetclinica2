@@ -28,6 +28,13 @@ public class Homework03Main {
         result.add(catDrug);
         result.add(henDrug);
         result.add(eagleDrug);
+//        // Посмотрим на hashCode наших лекарств:
+//        System.out.println("hash-коды лекарств:");
+//        System.out.println(dogDrug.hashCode());
+//        System.out.println(catDrug.hashCode());
+//        System.out.println(henDrug.hashCode());
+//        System.out.println(eagleDrug.hashCode());
+        System.out.println("Количество уникальных лекарств в сете:");
         System.out.println(result.size());
 
     }
