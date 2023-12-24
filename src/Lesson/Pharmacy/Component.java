@@ -11,6 +11,14 @@ public class Component implements Comparable<Component>{
         this.power = power;
     }
 
+    public int getPower() {
+        return power;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     /**
      Переопределённый метод toString()
      */

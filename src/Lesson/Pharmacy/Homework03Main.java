@@ -1,7 +1,6 @@
 package Lesson.Pharmacy;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Homework03Main {
     public static void main(String[] args) {
@@ -13,13 +12,13 @@ public class Homework03Main {
         Component aspartame = new Component("Aspartame", "2mg", 4);
 
         // Создадим лекарства:
-        NewPharmacy dogDrug = new NewPharmacy();
+        NewPharmacy dogDrug = new NewPharmacy("dogDrug");
         dogDrug.addComponents(aspartame, salt, sugar);
-        NewPharmacy catDrug = new NewPharmacy();
+        NewPharmacy catDrug = new NewPharmacy("catDrug");
         catDrug.addComponents(nitrogen, pineceline, aspartame);
-        NewPharmacy henDrug = new NewPharmacy();
+        NewPharmacy henDrug = new NewPharmacy("henDrug");
         henDrug.addComponents(pineceline, aspartame, nitrogen, salt, sugar);
-        NewPharmacy eagleDrug = new NewPharmacy();
+        NewPharmacy eagleDrug = new NewPharmacy("eagleDrug");
         eagleDrug.addComponents(pineceline, aspartame, nitrogen, salt, sugar);
 
         // Сделать так, чтобы после выполнения кода ниже, в сете result были только уникальные объекты:
@@ -36,6 +35,18 @@ public class Homework03Main {
 //        System.out.println(eagleDrug.hashCode());
         System.out.println("Количество уникальных лекарств в сете:");
         System.out.println(result.size());
+
+        // Создадим список лекарств:
+        List<NewPharmacy> listNewPharmacy = new ArrayList<>();
+        listNewPharmacy.add(eagleDrug); // суммарная power для eagleDrug равна - 425 (pineceline, aspartame, nitrogen, salt, sugar)
+        listNewPharmacy.add(catDrug); // суммарная power для catDrug равна - 334 (nitrogen, pineceline, aspartame)
+        listNewPharmacy.add(dogDrug); // суммарная power для dogDrug равна - 95 (aspartame, salt, sugar)
+        listNewPharmacy.add(henDrug); // суммарная power для henDrug равна - 425 (pineceline, aspartame, nitrogen, salt, sugar)
+
+        System.out.println();
+        System.out.println("Отсортировано по возрастанию суммарной power:");
+        Collections.sort(listNewPharmacy);
+        System.out.println(listNewPharmacy);
 
     }
 }

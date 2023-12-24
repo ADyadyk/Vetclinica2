@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="add Homework03Main.java &amp; add NewPharmacy.java &amp; Completed items 1 and 2 of homework">
+    <list default="true" id="7e6cc144-1af9-46b0-ba6a-5d4049a932ff" name="Changes" comment="update item 2 of homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Component.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/Homework03Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/Homework03Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson/Pharmacy/NewPharmacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/Pharmacy/NewPharmacy.java" afterDir="false" />
     </list>
@@ -252,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703369214914</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update item 2 of homework">
+      <option name="closed" value="true" />
+      <created>1703445322512</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703445322512</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -273,6 +282,7 @@
     <MESSAGE value="add foreach in PharmacyMain.java" />
     <MESSAGE value="add compereTo() in Component.java" />
     <MESSAGE value="add Homework03Main.java &amp; add NewPharmacy.java &amp; Completed items 1 and 2 of homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Homework03Main.java &amp; add NewPharmacy.java &amp; Completed items 1 and 2 of homework" />
+    <MESSAGE value="update item 2 of homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="update item 2 of homework" />
   </component>
 </project>

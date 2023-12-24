@@ -2,12 +2,14 @@ package Lesson.Pharmacy;
 
 import java.util.*;
 
-public class NewPharmacy /*implements Iterator<Component> */{
+public class NewPharmacy implements Comparable<NewPharmacy>{
     private int index;
+    private String name;
     private final List<Component> components;
 
-    public NewPharmacy() {
+    public NewPharmacy(String name) {
         this.index = 0;
+        this.name = name;
         this.components = new ArrayList<>();
     }
 
@@ -19,16 +21,7 @@ public class NewPharmacy /*implements Iterator<Component> */{
         if(components.length == 0) System.out.println("Вы ничего не добавили!");
         else Collections.addAll(this.components, components);
     }
-//
-//    @Override
-//    public boolean hasNext() {
-//        return index < components.size(); // Сравниваем индекс с длиной списка
-//    }
-//
-//    @Override
-//    public Component next() {
-//        return components.get(index++); // Получаем компонент по индексу, а потом увеличиваем индекс на еденицу
-//    }
+
 
     // Переопределим методы equals() и hasCode() класса Object:
     @Override
@@ -46,10 +39,39 @@ public class NewPharmacy /*implements Iterator<Component> */{
     public int hashCode() {
         return components.hashCode();
     }
-
     // Автоматическое переопределение с помощью generate vai wizard
 //    @Override
 //    public int hashCode() {
 //        return Objects.hash(index, components);
 //    }
+
+
+
+    // Переопределим метод compereTo(), чтобы он мог сравнивать лекарства по суммарной силе компонентов:
+    @Override
+    public int compareTo(NewPharmacy o) {
+        int powerThis = 0;
+        for(Component item : this.components){
+            powerThis += item.getPower();
+        }
+        int powerO = 0;
+        for (Component item : o.components){
+            powerO += item.getPower();
+        }
+        if(powerThis > powerO) return 1;
+        if(powerThis < powerO) return -1;
+        else return 0;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder componentName = new StringBuilder();
+        int powerComponents = 0;
+        for(Component item : components){
+            componentName.append(", ").append(item.getName());
+            powerComponents += item.getPower();
+        }
+        return "Суммараная power лекарства - " + name + ", включающего данные компоненты: " +
+                " {" + componentName + "} равна - " + powerComponents  + "\n";
+    }
 }
